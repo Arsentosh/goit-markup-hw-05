@@ -258,10 +258,6 @@ span {
   width: calc((100% - 72px) / 4);
 }
 
-/* .features-icon {
-  margin-bottom: 8px;
-} */
-
 .features-cont-icon {
   display: flex;
   align-items: center;
@@ -406,10 +402,6 @@ span {
   fill: var(--cloud-color);
 }
 
-/* .soc-icon:hover {
-  fill: var(--btn-color);
-} */
-
 /* -5-5-5-5-5-5-5-5-5-5-Customers */
 
 .customers {
@@ -526,12 +518,6 @@ span {
   margin-bottom: 16px;
 }
 
-/* .footer-links {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-} */
-
 .footer-links-list {
   display: flex;
   gap: 16px;
@@ -610,9 +596,6 @@ span {
   gap: 24px;
   margin-bottom: 72px;
 }
-
-/* .btn-item {
-} */
 
 .images-list {
   display: flex;
