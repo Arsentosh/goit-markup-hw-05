@@ -93,6 +93,10 @@ span {
 }
 
 .header {
+  /* position: fixed;
+  width: 100%;
+  background-color: #fcfcfc;
+  z-index: 1; */
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -189,7 +193,6 @@ span {
 
 .hero {
   /* background-color: var(--navi-blue-color); */
-
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -396,9 +399,12 @@ span {
 
 .soc-media-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
+  /* gap: 24px; */
   justify-content: center;
   margin: 0px 16px 32px 16px;
+  padding-top: 24px;
+  /* padding-top: 8px; */
 }
 
 .soc-media-link {
